@@ -1,0 +1,191 @@
+
+body{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgba(148,187,233,1) 100%);
+}
+
+.card {
+    width: 40%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-area {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+
+.card-area svg {
+    object-fit: contain;border-radius: 10px;
+}
+
+.card-items{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+textarea {
+    margin-top: 15px;
+    width: 90%;
+    padding: 2px 8px;
+    height: 100px;
+    resize: none;
+    border: 1px solid rgb(179, 176, 176);
+    border-radius: 4px;
+
+}
+
+input {
+    margin: 10px 0;
+    background-color: none;
+    border: 1px solid rgb(179, 176, 176);
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+
+.uno input {
+    width: 90%;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+    color: #0C0622;
+    margin-bottom: 20px;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+
+}
+
+a {
+    text-decoration: none;
+    color:#464545;
+}
+
+.uno {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+.submit {
+    margin-top: -5px;
+    margin-bottom: 30px;
+    display: flex;
+    font-size: 0.9rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    flex: 1;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.offers {
+    flex: 2;
+}
+
+button {
+    width: 140px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0C0622;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: #0C0622;
+    border: 1px solid #0C0622;
+}
+
+
+
+@media (max-width: 1204px) {
+
+    h1 {
+        font-size: 22px;
+        color:rgba(7, 1, 17)
+    }
+
+    .card {
+        width: 500px;
+    }
+
+    
+}
+
+
+@media (max-width: 900px) {
+
+    h1 {
+        font-size: 22px;
+        color:rgba(7, 1, 17)
+    }
+    .card {
+        width: 400px;
+    }
+
+
+}
+
+
+@media (max-width: 675px) {
+
+    h1 {
+        font-size: 16px;
+        color:rgba(7, 1, 17)
+    }
+    .card {
+        width: 300px;
+    }
+
+    .submit {
+        flex-direction: column;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    button {
+        width: 120px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 350px) { 
+    .card {
+        width: 260px;
+    }
+
+}
